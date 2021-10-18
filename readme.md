@@ -70,12 +70,50 @@ First create .ssh/config file and then paste the following
 - Before pushing to remote 
     - squach all of your local commits first 
     - rebase master
-    - Solve the conflicts
+    - Solve the conflicts ( commits)
 - Once you are done commit&push the feature to the remote 
 - Create pull request and assign reviewers to it.
 - Admin will merge it
 - Restart a new feature with git pull ...
 - Delete the local feature branch that you have pushed.
 
+## Rebase
+`git pull -r origin master`
+
+`git rebase --continue`
+
+`git push -f`
 
 ## Merge Issues
+sd
+
+## The Perfect Commit
+
+- Select individual files a single commit. USe single topic
+- Provide a great message, something very precise.
+
+## Branching Strategies
+- Conventions
+- relatively small commits
+- different type of branches( Feature branch, develop branch ...)
+Long-Running & Short-Lived Branches
+
+#### Long-Running Branches
+- Master/main
+- Integration
+####  Short-lived Branch
+- For few features, bug fixes, refactorings, experiments.
+- will be deleted after integration(marge/rebase)
+
+
+## GitFlow
+
+## GitHub Flow
+
+## Merge conflicts
+Merge conflicts occurs when integratinng commits from different sources. It could happen during
+- merging branches
+- rebasing
+- pull actions.
+
+
