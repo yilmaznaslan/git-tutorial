@@ -11,6 +11,7 @@
 `git config`
 
 `git rm -r --cashed .`
+
 `git log`
 
 `git show`
@@ -75,3 +76,6 @@ First create .ssh/config file and then paste the following
 - Admin will merge it
 - Restart a new feature with git pull ...
 - Delete the local feature branch that you have pushed.
+
+
+## Merge Issues
