@@ -11,3 +11,5 @@
 `git config`
 
 `git rm -r --cashed .`
+
+## Merge Issues
