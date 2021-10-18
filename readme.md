@@ -60,6 +60,9 @@ First create .ssh/config file and then paste the following
 ### Create branch and checkout to it
 `git branch -b feature-x`
 
+### Delete a branch
+`git branch -d feature-a`
+
 ## Main Workflow
 - Pull the latest changes from the master branch of the remote repository into local
 - Create a new branch and work on that branch
